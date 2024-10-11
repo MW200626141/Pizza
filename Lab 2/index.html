@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <meta name="decription" content="Pizza HTML Page">
+  <meta name="robots" content="noindext, no follow">
+<title>Georgian's Pizza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+<!--Logo-->
+    <div>
+      <a href="index.html"><img src="./img/logo.jpg" alt="header logo"></a>
+    </div>
+</header>
+<section class="banner">
+  <h1>Custom Order</h1>
+</section>
+<section>
+  <div>
+    <!--amount of pizzas-->
+    <h3>How many pizzas?</h3>
+    <form action="Order.php" method="get">
+    <input type="radio" id="one" name="many" value="one">
+    <label for="one">One</label>
+    <input type="radio" id="two" name="many" value="two">
+    <label for="two">Two</label>
+    <input type="radio" id="three" name="many" value="three">
+    <label for="three">Three</label>
+      <br>
+      <!--size of pizza-->
+      <h3>What size? (Applies to all pizzas)</h3>
+      <input type="radio" id="personal" name="size" value="Personal">
+      <label for="personal">Personal</label>
+      <input type="radio" id="small" name="size" value="Small">
+      <label for="small">Small</label>
+      <input type="radio" id="medium" name="size" value="Medium">
+      <label for="medium">Medium</label>
+      <input type="radio" id="large" name="size" value="Large">
+      <label for="large">Large</label>
+      <input type="radio" id="xl" name="size" value="XL">
+      <label for="xl">XL</label>
+      <br>
+      <!--Toppings-->
+      <h3>What type of toppings? (Applies to all pizzas)</h3>
+      <h4>Meats</h4>
+        <input type="checkbox" id="pep" name="topping" value="pep">
+        <label>Pepperoni</label>
+        <input type="checkbox" id="sal" name="topping" value="sal">
+        <label>Salami</label>
+        <input type="checkbox" id="chi" name="topping" value="chi">
+        <label>Chicken</label>
+        <input type="checkbox" id="bac" name="topping" value="bac">
+        <label>Bacon</label>
+        <input type="checkbox" id="ham" name="topping" value="ham">
+        <label>Ham</label>
+        <h4>Fruit/Vegetable</h4>
+        <input type="checkbox" id="gre" name="topping" value="gre">
+        <label>Green Pepper</label>
+        <input type="checkbox" id="oni" name="topping" value="oni">
+        <label>Onion</label>
+        <input type="checkbox" id="oli" name="topping" value="oli">
+        <label>Olive</label>
+        <input type="checkbox" id="mus" name="topping" value="mus">
+        <label>Mushroom</label>
+        <input type="checkbox" id="jal" name="topping" value="jal">
+        <label>Jalapeño</label>
+        <input type="checkbox" id="tom" name="topping" value="tom">
+        <label>Tomato</label>
+        <input type="checkbox" id="bas" name="topping" value="bas">
+        <label>Basil</label>
+        <input type="checkbox" id="bro" name="topping" value="bro">
+        <label>Broccoli</label>
+        <input type="checkbox" id="pin" name="topping" value="pin">
+        <label>Pineapple</label>
+        <br>
+        <!--sauce-->
+        <h3>Select the dipping sauce.</h3>
+        <input type="checkbox" id="cae" name="sauce" value="cae">
+        <label>Caesar</label>
+        <input type="checkbox" id="ran" name="sauce" value="ran">
+        <label>Ranch</label>
+        <input type="checkbox" id="gar" name="sauce" value="gar">
+        <label>Garlic</label>
+        <input type="checkbox" id="bbq" name="sauce" value="bbq">
+        <label>BBQ</label>
+        <input type="checkbox" id="buf" name="sauce" value="buf">
+        <label>Buffalo</label>
+        <input type="checkbox" id="hon" name="sauce" value="hon">
+        <label>Honey Mustard</label>
+        <input type="checkbox" id="ket" name="sauce" value="ket">
+        <label>Ketchup</label>
+        <input type="checkbox" id="mar" name="sauce" value="mar">
+        <label>Marinara</label>
+        <input type="checkbox" id="blu" name="sauce" value="blu">
+        <label>Blue Cheese</label>
+        <br>
+        <!--sides-->
+        <h3>Sides.</h3>
+        <input type="checkbox" id="bre" name="side" value="bre">
+        <label>Bread Sticks</label>
+        <input type="checkbox" id="garb" name="side" value="garb">
+        <label>Garlic BreadSticks</label>
+        <input type="checkbox" id="ches" name="side" value="ches">
+        <label>Cheese BreadSticks</label>
+        <input type="checkbox" id="coo" name="side" value="coo">
+        <label>Cookie Pizza</label>
+        <input type="checkbox" id="moz" name="side" value="moz">
+        <label>Mozzarella Sticks</label>
+        <br>
+        <input type="submit" value="CONFIRM ORDER">
+        <br>
+    </form>
+  </div>
+</section>
+<section>
+  <div>
+    <!--<img src="./img/sauce.jpg" alt="dipping sauce">-->
+  </div>
+</section>
+<section>
+  <div>
+    <!--side-->
+   <!-- <img src="./img/side.jpg" alt="sides">-->
+  </div>
+</section>
+<section>
+  <div>
+    <!-- Confirm button -->
+    </div>
+</section>
+<footer>
+  <section class="foot">
+  <h6>ABOUT US</h6>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam commodi et itaque nemo officiis quas vero. Aperiam excepturi nisi rerum. Aliquid animi asperiores dicta enim facilis fuga harum ipsam, non, nostrum quae quidem quis recusandae rerum! A asperiores fugit nisi quam, quas quisquam sunt. Aperiam excepturi id ut vitae?</p>
+  </section>
+  <section>
+    <div>
+    <h5>Subscribe to news and HOT deals!</h5>
+    </div>
+    <div>
+      <form>
+      <p><input name="phone" placeholder="Phone Number" type="text"></p>
+      <p><input name="email" placeholder="Your Email" type="email"></p>
+        <p><input type="submit" value="Send"></p>
+      </form>
+    </div>
+  </section>
+</footer>
+</body>
+</html>

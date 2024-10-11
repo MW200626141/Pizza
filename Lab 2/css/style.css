@@ -1,0 +1,60 @@
+body{
+  margin: 0px !important;
+  background: #f8f8f8;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Afacad Flux", sans-serif;
+}
+p,a,li,figcaption,td,blockquote{
+  font-family: "Afacad Flux", sans-serif;
+  font-style: 20px;
+  text-decoration: none;
+}
+
+header{
+  grid-area: header;
+  height:200px;
+  background-color:#191970;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+header > div > a > img {
+  width: auto;
+  height: 25%;
+  align-items: center;
+  padding-left: 750px;
+}
+
+header > div{
+  width: 250px;
+  height: 750px;
+  align-items: center;
+}
+
+header > title{
+  display: grid;
+  align-content: center;
+}
+
+body{
+  text-align: center;
+}
+
+footer{
+  grid-area: footer;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 65% 50%;
+  background-color: #191970;
+  color: #f8f8f8;
+}
+
+footer > form > input,footer >form > textarea{
+  border: solid 8px #191970;
+  padding: 15px 20px;
+}
+
+::placeholder{
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 20px;
+}
